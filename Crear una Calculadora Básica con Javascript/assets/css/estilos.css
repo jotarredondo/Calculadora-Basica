@@ -1,0 +1,38 @@
+.calculadora{
+	display:block;
+	margin:0 auto;
+	padding:20px;
+	background-color: #f12f86;
+	width:350px;
+	height:500px;
+	border-radius: 25px;
+}
+.calculadora td button{
+	display:block;
+	width:70px;
+	height: 70px;
+	font-family: 'Suez One', serif;
+	font-size: 25px;
+	color: chartreuse;
+	border-color: darkmagenta;
+	background-color: #0b02b7;
+}
+
+#resultado{
+	display:block;
+	text-align: center;
+	font-family: 'Suez One', serif;
+	font-size: 70px;
+	color: chartreuse;
+	margin-bottom: 50px;
+	width:300px;
+	height: 100px;
+	line-height: 100px;
+	border-radius : 25px;
+	overflow-y: scroll;
+	background-color: #099372
+}
+
+#division, #suma, #resta, #multiplicacion, #reset, #igual  {
+	background-color: #1d0063;
+}
